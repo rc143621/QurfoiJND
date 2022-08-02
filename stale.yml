@@ -1,5 +1,4 @@
 # Configuration for probot-stale - https://github.com/probot/stale
-# Number of days of inactivity before an issue becomes stale
 daysUntilStale: 90
 # Number of days of inactivity before a stale issue is closed
 daysUntilClose: 7
@@ -12,7 +11,6 @@ exemptLabels:
   - "Type: Discussion"
   - "Type: Needs Investigation"
   - "Type: Regression"
-# Label to use when marking an issue as stale
 staleLabel: "Resolution: Stale"
 issues:
   # Comment to post when marking an issue as stale.
@@ -24,7 +22,6 @@ issues:
   closeComment: >
     Closing this issue after a prolonged period of inactivity. If this issue is still present in the latest release, please create a new issue with up-to-date information. Thank you!
 pulls:
-  # Comment to post when marking a pull request as stale.
   markComment: >
     This pull request has been automatically marked as stale.
     **If this pull request is still relevant, please leave any comment** (for example, "bump"), and we'll keep it open.
